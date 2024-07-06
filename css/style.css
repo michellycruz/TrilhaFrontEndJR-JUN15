@@ -1,0 +1,32 @@
+
+.navbar_page{
+    background-color: var(--vermelho);
+}
+
+.btn_page{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../img/mich.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+    background-color: var(--preto);
+    color: var(--branco);
+}

@@ -104,6 +104,7 @@
 .text_gostos_pessoais{
     max-width: 500px;
     margin-right: 200px;
+    text-align: justify;
 }
 
 .carousel{

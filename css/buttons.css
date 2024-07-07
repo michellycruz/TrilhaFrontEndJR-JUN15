@@ -1,11 +1,12 @@
 .menu_botoes > ul{
+    padding: 0px;
     display: flex;
     justify-content: space-around;
-
 }
 
 .menu_botoes > ul > li{
     list-style-type: none;
+    font-size: 24px;
 }
 
 .menu_botoes > ul > li > a{
@@ -17,4 +18,46 @@
 .menu_botoes > ul > li > a:hover{
     transition: .3s;
     color: var(--vermelho);
+}
+
+.btn_white{
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border: 3px solid transparent;
+    background-color: var(--branco);
+}
+
+.btn_white:hover{
+    transition: .2s;
+    margin-left: 30px;
+    color: var(--vermelho);
+    border: 3px solid var(--vermelho);
+}
+
+
+/* main */
+
+.botoes_sobre{
+    margin-top: 60px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.btn_red{
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    color: var(--branco);
+    border: 3px solid transparent;
+    background-color: var(--vermelho);
+}
+
+.btn_red:hover{
+    transition: .2s;
+    color: var(--preto);
+    border: 3px solid var(--preto);
 }

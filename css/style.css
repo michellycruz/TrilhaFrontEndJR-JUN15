@@ -5,26 +5,45 @@
 
 *{
     font-family: OpenDyslexicMono-Regular;
+    box-sizing: border-box;
 }
+
+/*navabar*/
 
 .nav_inicial{
     display: flex;
+    height: 600px;
 }
 
 .img_mich{
-    max-width: 300px;
-    height: 300px;
-    background-image: url("../img/mich.png");
-    background-position: center;
-    background-size: 67%;
-    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.round{
     border-radius: 100%;
+    overflow: hidden;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.round > img {
+    width: 90%;
 }
 
 .container_nav_1{
     width: 40%;
-    background-color: var(--vermelho);
     padding: 20px;
+    background-color: var(--vermelho);
+    display: flex;
+    flex-direction: column;
+}
+
+.container_nav_1 > h1 {
+    text-align: start;
 }
 
 .container_nav_2{
@@ -45,6 +64,94 @@
 
 .text_nav > p{
     margin-bottom: 50px;
-    max-width: 300px;
+    max-width: 500px;
     text-align: justify;
+    font-size: 24px;
+}
+
+
+/* Main */
+
+#sobre{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_sobre{
+    margin-top: 80px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.text_sobre > p {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#gostos_pessoais{
+    padding: 100px 30px;
+    background-color: var(--preto);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: auto;
+}
+
+.text_gostos_pessoais{
+    max-width: 500px;
+    margin-right: 200px;
+}
+
+.carousel{
+    width: 300px;
+}
+
+.img_carousel{
+    max-width: 300px;
+    height: auto;
+}
+
+#motivacoes{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+
+#motivacoes > img {
+    width: 90px;
+    align-self: flex-end;
+}
+
+#contato{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 100px 30px;
+
+}
+
+#creditos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+#creditos > p > a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+#creditos > p > a:hover {
+    transition: .3s;
+    color: var(--preto);
 }

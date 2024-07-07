@@ -6,41 +6,69 @@
     <title>Apresentação - Trilha inicial FRONTEND</title>
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
     <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar_page">
-            <button class="btn_page" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-list"></i></nav>
+        <nav class="nav_inicial">
+            <div class="container_nav_1">
+                <h1>Dev Mich</h1>
+                <div class="img_mich">
+
+                </div>
+            </div>
+            <div class="container_nav_2">
+                <div class="menu_botoes">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#gostos_pessoais">Gostos Pessoais</a></li>
+                        <li><a href="#motivacoes">Motivações</a></li>
+                    </ul>
+                </div>
+                <div class="text_nav">
+                    <p>Olá, me chamo Michelly Cruz, tenho 27 anos e sou desenvolvedora front-end</p>
+                    <button class="btn_white">Baixar Currículo</button>
+                </div>
+            </div>
         </nav>
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="gostos">Gostos pessoais</a></li>
-                <li><a href="motivacoes">Motivações</a></li>
-            </ul>
-          </div>
-        </div>
     </header>
     <main>
-        <section id="inicio">
-            <div class="foto"></div>
-            <div class="texto">
-                <h1>Sobre mim</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla voluptas consequuntur voluptatem aliquam veniam cum animi, quia magnam magni assumenda inventore, aliquid dolorum dicta autem culpa earum corporis iusto deleniti sapiente necessitatibus similique! Impedit fugiat nobis, odit ipsum necessitatibus expedita laboriosam quae vel maxime est rem, alias dignissimos, facere iure aperiam soluta nostrum? In, dolor ipsam enim earum magnam exercitationem distinctio consequuntur optio quisquam vel reprehenderit labore dicta. Harum aperiam distinctio corrupti! Molestiae sed tempora quibusdam omnis facilis, ut doloremque perferendis, aliquam ad sapiente magni suscipit illo, repudiandae ullam. Laboriosam, dignissimos rerum eius corrupti eligendi expedita. Veniam, perferendis eum?</p>
+        <section id="sobre">
+            <div class="text_sobre">
+                <h2>Sobre mim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit sint quia? Odit, facilis suscipit magnam necessitatibus dignissimos nesciunt. Rem deserunt quos quo, eius a quidem, est, neque laudantium consequatur vel magnam adipisci reiciendis hic suscipit ipsa libero tenetur labore!</p>
+            </div>
+            <button class="btn_red">Linkedin</button>
+            <button class="btn_red">Github</button>
+        </section>
+        <section id="gostos_pessoais">
+            <div class="text_gostos_pessoais">
+                <h2>Gostos Pessoais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate minima, ut voluptatum omnis veritatis alias! Adipisci architecto aspernatur eaque neque at cupiditate nobis tempore magni assumenda minus reprehenderit id atque sapiente repellendus excepturi, necessitatibus ipsum dicta omnis. Porro, minus!</p>
+            </div>
+            <!--Carrossel aqui-->
+        </section>
+        <section id="motivacoes">
+            <img src="img/logo.webp" alt="logo codigo certo">
+            <div class="text_sobre">
+                <h2>Motivações</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nisi est quos ducimus quod eos consectetur necessitatibus nulla possimus, aspernatur deserunt, obcaecati repudiandae. Aliquam accusamus sequi ad blanditiis itaque id excepturi, deleniti quibusdam veniam dicta, asperiores similique vitae dolor! Perferendis autem labore aut, esse illum molestiae provident hic, voluptas nemo ullam mollitia id voluptatibus consectetur eum error unde maxime ex reprehenderit magnam laborum quibusdam amet ducimus expedita. Magni pariatur, molestias itaque rerum modi ex omnis totam. Praesentium distinctio maxime explicabo!</p>
             </div>
         </section>
     </main>
     <footer>
-
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Whatsappp: (27) 9 96942003</p>
+            <p>Instagram: @michxcrz00</p>
+        </section>
+        <section id="creditos">
+            <p>Feito por <a href="#">Michelly Cruz</a></p>
+            <img src="img/logo.webp" alt="icon codigo certo">
+        </section>
     </footer>
 </body>
 </html>

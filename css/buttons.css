@@ -1,0 +1,20 @@
+.menu_botoes > ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu_botoes > ul > li{
+    list-style-type: none;
+}
+
+.menu_botoes > ul > li > a{
+    color: var(--branco);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_botoes > ul > li > a:hover{
+    transition: .3s;
+    color: var(--vermelho);
+}

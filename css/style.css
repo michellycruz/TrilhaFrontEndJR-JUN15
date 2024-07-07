@@ -1,32 +1,50 @@
-
-.navbar_page{
-    background-color: var(--vermelho);
+@font-face {
+    font-family: OpenDyslexicMono-Regular;
+    src: url(../fonts/OpenDyslexicMono-Regular.otf);
 }
 
-.btn_page{
-    background-color: transparent;
-    color: white;
-    border: none;
-    margin: 5px;
-    font-size: 30px;
+*{
+    font-family: OpenDyslexicMono-Regular;
 }
 
-.foto {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-image: url("../img/mich.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
-#inicio{
-    width: 100%;
+.nav_inicial{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    flex-direction: column;
+}
+
+.img_mich{
+    max-width: 300px;
+    height: 300px;
+    background-image: url("../img/mich.png");
+    background-position: center;
+    background-size: 67%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.container_nav_1{
+    width: 40%;
+    background-color: var(--vermelho);
+    padding: 20px;
+}
+
+.container_nav_2{
+    width: 60%;
     background-color: var(--preto);
     color: var(--branco);
+    padding: 30px;
+}
+
+.text_nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_nav > p{
+    margin-bottom: 50px;
+    max-width: 300px;
+    text-align: justify;
 }

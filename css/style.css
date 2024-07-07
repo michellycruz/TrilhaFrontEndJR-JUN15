@@ -150,12 +150,17 @@
     color: var(--branco);
 }
 
-#creditos > p > a {
+#creditos > p > a, #contato > h3 > a {
     color: var(--branco);
     text-decoration: none;
 }
 
-#creditos > p > a:hover {
+#creditos > p > a:hover{
     transition: .3s;
     color: var(--preto);
+}
+
+#contato > h3 > a:hover{
+    transition: .3s;
+    color: var(--vermelho);
 }

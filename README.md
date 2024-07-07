@@ -23,7 +23,6 @@ Primordial: Utilizar as cores da paleta da **Codigo Certo Coders:**
 - **#e53939** (vermelho)
 - **#ffffff** (branco)
 
-
 ### Detalhes Técnicos: 🔧
 - **Boas Práticas:** Utilizar boas práticas de código limpo, legível e bem documentado.
 - **Git:** Utilizar Git para controle de versão e submeter o projeto através de um repositório público no GitHub.

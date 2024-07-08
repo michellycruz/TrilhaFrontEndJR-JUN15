@@ -15,6 +15,7 @@
 .nav_inicial{
     display: flex;
     height: 600px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.384);
 }
 
 .img_mich{
@@ -104,6 +105,7 @@
     justify-content: center;
     align-items: center;
     max-height: auto;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.329);
 }
 
 .text_gostos_pessoais{

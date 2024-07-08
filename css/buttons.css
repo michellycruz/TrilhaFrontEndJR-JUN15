@@ -21,6 +21,7 @@
 }
 
 .btn_white{
+    color: var(--preto);
     border: none;
     padding: 10px 40px;
     font-size: 18px;

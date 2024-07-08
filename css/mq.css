@@ -2,7 +2,9 @@
 
 @media (max-width: 1000px) {
 
-
+   #sobre{
+        padding-top: 200px
+    }
 
     .nav_inicial{
         display: flex;
